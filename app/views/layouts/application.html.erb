@@ -1,8 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
+    <meta charset=”utf-8″>
     <title>Piraquara</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta name="handheldfriendly" content="true">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta name="description" content="Consumidor transparencia Piraquara-PR">
+    <meta name="robots" content="noindex, nofollow">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
@@ -12,8 +20,6 @@
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
       <%= yield %>
-    </main>
   </body>
 </html>
